@@ -1,0 +1,5 @@
+---
+# tasks file for apache
+- lineinfile:
+    line: 'inserted from apache role'
+    path: /var/www/html/index.html
